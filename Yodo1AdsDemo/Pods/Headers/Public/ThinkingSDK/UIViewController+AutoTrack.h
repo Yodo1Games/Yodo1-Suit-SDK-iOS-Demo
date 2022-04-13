@@ -1,0 +1,1 @@
+../../../ThinkingSDK/ThinkingSDK/Source/AutoTrack/vc/UIViewController+AutoTrack.h

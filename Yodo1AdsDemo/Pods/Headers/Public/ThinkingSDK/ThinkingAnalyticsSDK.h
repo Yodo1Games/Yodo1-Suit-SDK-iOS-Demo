@@ -1,0 +1,1 @@
+../../../ThinkingSDK/ThinkingSDK/Source/main/ThinkingAnalyticsSDK.h

@@ -1,0 +1,1 @@
+../../../ThinkingSDK/ThinkingSDK/Source/Core/TDConfigurationMacros.h

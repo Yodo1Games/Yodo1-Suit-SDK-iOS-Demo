@@ -1,0 +1,16 @@
+source 'https://github.com/Yodo1Games/Yodo1Spec.git'
+source 'https://github.com/Yodo1Sdk/Yodo1Spec.git'
+source 'https://github.com/Yodo1Games/Yodo1Spec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'Yodo1AdsDemo' do
+  
+  pod 'Yodo1Ads/OpenSuit_AnalyticsAppsFlyer', '0.0.45'
+  pod 'Yodo1Ads/OpenSuit_AnalyticsUmeng', '0.0.45'
+  pod 'Yodo1Ads/Yodo1_iCloud', '0.0.45'
+  pod 'Yodo1Ads/Yodo1_UCenter', '0.0.45'
+  pod 'Yodo1Ads/Yodo1_ConfigKey', '0.0.45'
+  #pod 'Yodo1Ads/OpenSuit_AnalyticsFirebase', '0.0.45'
+
+end

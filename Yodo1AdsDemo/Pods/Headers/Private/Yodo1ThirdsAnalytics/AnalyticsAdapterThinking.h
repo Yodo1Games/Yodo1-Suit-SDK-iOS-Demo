@@ -1,0 +1,1 @@
+../../../Yodo1ThirdsAnalytics/AnalyticsAdapterThinking.h

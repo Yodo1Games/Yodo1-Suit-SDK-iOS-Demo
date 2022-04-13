@@ -1,0 +1,1 @@
+../../../ThinkingSDK/ThinkingSDK/Source/common/TDPresetProperties+TDDisProperties.h

@@ -1,0 +1,1 @@
+../../../OpenSuitAnalyticsAppsFlyer/OpenSuitAnalyticsAdapterAppsFlyer.h

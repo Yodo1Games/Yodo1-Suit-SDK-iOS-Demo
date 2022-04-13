@@ -1,0 +1,1 @@
+../../../ThinkingSDK/ThinkingSDK/Source/common/config/TDPublicConfig.h

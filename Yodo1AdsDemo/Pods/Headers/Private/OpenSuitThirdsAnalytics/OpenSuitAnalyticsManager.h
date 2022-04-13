@@ -1,0 +1,1 @@
+../../../OpenSuitThirdsAnalytics/OpenSuitAnalyticsManager.h

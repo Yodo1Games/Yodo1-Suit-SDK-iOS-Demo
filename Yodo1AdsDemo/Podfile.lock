@@ -1,0 +1,177 @@
+PODS:
+  - AppsFlyerFramework (6.5.2):
+    - AppsFlyerFramework/Main (= 6.5.2)
+  - AppsFlyerFramework/Main (6.5.2)
+  - Bugly (2.5.91)
+  - OpenSuitAnalyticsAppsFlyer (1.1.7):
+    - AppsFlyerFramework (= 6.5.2)
+    - ThinkingSDK (= 2.7.5)
+    - Yodo1OnlineParameter (= 6.0.1)
+  - OpenSuitAnalyticsUmeng (1.0.6):
+    - "UMAnalyticsGame (= 7.3.5+G)"
+    - UMAPM (= 1.5.6)
+    - UMCCommonLog (= 2.0.2)
+    - UMCommon (= 7.3.5)
+    - UMDevice (= 2.1.0)
+    - Yodo1OnlineParameter (= 6.0.1)
+  - OpenSuitShare (1.0.6):
+    - WechatOpenSDK (= 1.8.7.1)
+    - Weibo_SDK (= 3.3.0)
+    - Yodo1FBSDKShareKit (= 5.0.1)
+    - Yodo1OnlineParameter (= 6.0.1)
+    - Yodo1QQSDK (= 5.0.2)
+    - Yodo1Qrencode (= 5.0.0)
+  - OpenSuitThirdsAnalytics (1.0.8):
+    - ThinkingSDK (= 2.7.5)
+    - Yodo1OnlineParameter (= 6.0.1)
+  - ThinkingSDK (2.7.5)
+  - "UMAnalyticsGame (7.3.5+G)":
+    - UMCommon
+  - UMAPM (1.5.6)
+  - UMCCommonLog (2.0.2)
+  - UMCommon (7.3.5):
+    - UMDevice
+  - UMDevice (2.1.0)
+  - WechatOpenSDK (1.8.7.1)
+  - Weibo_SDK (3.3.0)
+  - Yodo1Ads/OpenSuit_AnalyticsAppsFlyer (0.0.45):
+    - OpenSuitAnalyticsAppsFlyer (= 1.1.7)
+    - Yodo1Ads/Yodo1_Ads (= 0.0.45)
+  - Yodo1Ads/OpenSuit_AnalyticsUmeng (0.0.45):
+    - OpenSuitAnalyticsUmeng (= 1.0.6)
+    - Yodo1Ads/Yodo1_Ads (= 0.0.45)
+  - Yodo1Ads/Yodo1_Ads (0.0.45):
+    - Bugly (= 2.5.91)
+    - OpenSuitThirdsAnalytics (= 1.0.8)
+    - Yodo1AdvertSDK (= 6.0.6)
+    - Yodo1Analytics (= 6.0.1)
+    - Yodo1ThirdsAnalytics (= 6.1.2)
+  - Yodo1Ads/Yodo1_ConfigKey (0.0.45):
+    - OpenSuitShare (= 1.0.6)
+    - Yodo1Ads/Yodo1_Ads (= 0.0.45)
+    - Yodo1GameCenter (= 6.0.8)
+    - Yodo1iCloud (= 6.0.1)
+    - Yodo1iRate (= 6.0.0)
+    - Yodo1Notification (= 6.0.1)
+    - Yodo1Privacy (= 6.0.1)
+    - Yodo1Replay (= 6.0.1)
+  - Yodo1Ads/Yodo1_iCloud (0.0.45):
+    - Yodo1Ads/Yodo1_Ads (= 0.0.45)
+    - Yodo1iCloud (= 6.0.1)
+  - Yodo1Ads/Yodo1_UCenter (0.0.45):
+    - Yodo1Ads/Yodo1_Ads (= 0.0.45)
+    - Yodo1UCenter (= 6.1.3)
+  - Yodo1AdvertSDK (6.0.6):
+    - ThinkingSDK (= 2.7.5)
+    - Yodo1Analytics (= 6.0.1)
+    - Yodo1FeedbackError (= 6.0.1)
+  - Yodo1Analytics (6.0.1):
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1FBSDKCoreKit (5.0.0)
+  - Yodo1FBSDKShareKit (5.0.1):
+    - Yodo1FBSDKCoreKit (= 5.0.0)
+  - Yodo1FeedbackError (6.0.1):
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1GameCenter (6.0.8):
+    - Yodo1OnlineParameter (= 6.0.1)
+    - Yodo1UCenter
+  - Yodo1iCloud (6.0.1):
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1iRate (6.0.0)
+  - Yodo1Layout (5.0.0)
+  - Yodo1Notification (6.0.1):
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1OnlineParameter (6.0.1)
+  - Yodo1Privacy (6.0.1):
+    - Yodo1Layout (= 5.0.0)
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1QQSDK (5.0.2)
+  - Yodo1Qrencode (5.0.0)
+  - Yodo1Replay (6.0.1):
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1ThirdsAnalytics (6.1.2):
+    - ThinkingSDK (= 2.7.5)
+    - Yodo1OnlineParameter (= 6.0.1)
+  - Yodo1UCenter (6.1.3)
+
+DEPENDENCIES:
+  - Yodo1Ads/OpenSuit_AnalyticsAppsFlyer (= 0.0.45)
+  - Yodo1Ads/OpenSuit_AnalyticsUmeng (= 0.0.45)
+  - Yodo1Ads/Yodo1_ConfigKey (= 0.0.45)
+  - Yodo1Ads/Yodo1_iCloud (= 0.0.45)
+  - Yodo1Ads/Yodo1_UCenter (= 0.0.45)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AppsFlyerFramework
+    - Bugly
+    - ThinkingSDK
+    - UMAnalyticsGame
+    - UMAPM
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
+    - WechatOpenSDK
+    - Weibo_SDK
+  https://github.com/Yodo1Games/Yodo1Spec.git:
+    - OpenSuitAnalyticsAppsFlyer
+    - OpenSuitAnalyticsUmeng
+    - OpenSuitShare
+    - OpenSuitThirdsAnalytics
+    - Yodo1Ads
+    - Yodo1AdvertSDK
+    - Yodo1Analytics
+    - Yodo1FBSDKCoreKit
+    - Yodo1FBSDKShareKit
+    - Yodo1FeedbackError
+    - Yodo1GameCenter
+    - Yodo1iCloud
+    - Yodo1iRate
+    - Yodo1Layout
+    - Yodo1Notification
+    - Yodo1OnlineParameter
+    - Yodo1Privacy
+    - Yodo1QQSDK
+    - Yodo1Qrencode
+    - Yodo1Replay
+    - Yodo1ThirdsAnalytics
+  https://github.com/Yodo1Sdk/Yodo1Spec.git:
+    - Yodo1UCenter
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: 9f304d91cc80b6579b1206a59220383056b58b47
+  Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
+  OpenSuitAnalyticsAppsFlyer: 3671d78393e3ad1fca641d80958fe4c5bfdb134c
+  OpenSuitAnalyticsUmeng: 6293d7e30e5a92f5f33124e23f4d3afe082eff5f
+  OpenSuitShare: caf184231419b0c8982f19e956b501821a964d24
+  OpenSuitThirdsAnalytics: 23bffebc3a01571a48a645138631a0a7cc98ac9d
+  ThinkingSDK: 08d4dbc5204905888fa8dff103a676db6c517e59
+  UMAnalyticsGame: 0f86113f32bbd48ca19448924f65ddff00dc0eb8
+  UMAPM: 5ab988b8bedfd090ee2307cb80530ba79b8ac264
+  UMCCommonLog: bea707e50c85cef4b0eb47cc5c7226bb843245ca
+  UMCommon: ab4d875ddefe1b06c60b577e4a58bc4d433ee067
+  UMDevice: 04948a92184e8d25f1369b635dff5490c1f063e0
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  Weibo_SDK: 7478846cccb43c4785ba76b214115fb7ec9dc0d4
+  Yodo1Ads: a9e0642c48111ad624bab6305855f3eb9e08cd45
+  Yodo1AdvertSDK: 9b00b363db2ed925f88e74dea7b1dc94bffb43fc
+  Yodo1Analytics: d9a9c61d57fa96a3f662f109e886a02292ed5056
+  Yodo1FBSDKCoreKit: 697abc9d75d8d14e2b89dfff6710de89eadc7e82
+  Yodo1FBSDKShareKit: 0dc2490dd9687def578f30f62dae1c2f77e53805
+  Yodo1FeedbackError: 103535ab66b57af912614668f86078589a132e0d
+  Yodo1GameCenter: 94bed1aa35c241395dce9e3c7296672986ee2b7a
+  Yodo1iCloud: 33b17efde751c1d947bb9740ee8af0e56b7355b1
+  Yodo1iRate: 5803cf7645d4baf03b78c30f354abe656955f9d4
+  Yodo1Layout: 8995236684fea061a3ac46002d5eb30c693c5d2b
+  Yodo1Notification: 16d77a47b7c8848ec251d2bdbbb959f015364855
+  Yodo1OnlineParameter: 0411a5791c5e255a5eab7cf2dc504451a49a257f
+  Yodo1Privacy: 4b0f5ea4d6f1db7da744ce9db4f2943a25b3388a
+  Yodo1QQSDK: 8f3e99a8ecf51b8ae7c08497467e9efd53ba1ea5
+  Yodo1Qrencode: 26bef78cd21676402c644b200bee5597631e4819
+  Yodo1Replay: ad8cbd3fd1be2e35cefa318ec2994a2569a31dc0
+  Yodo1ThirdsAnalytics: 65ec8a894d010527eb4e59a8d124de3e89f2f131
+  Yodo1UCenter: f23405346e5fba3cbbedf27a7fbe956d8721370f
+
+PODFILE CHECKSUM: 4351dfc8bfbfaf8cc4d29e17f30b711651f3e420
+
+COCOAPODS: 1.11.2
