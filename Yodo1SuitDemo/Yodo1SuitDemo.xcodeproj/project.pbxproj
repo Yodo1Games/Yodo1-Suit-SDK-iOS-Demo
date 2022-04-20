@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02094ABEBCFE662C644E2F36 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7349AEB0E7E1E50B8431AA /* EventKit.framework */; };
+		023644FDB6140D2012549F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29242AA9F64EAC73DA9DD0D /* UIKit.framework */; };
+		04C5428C8E62F364D6D589D9 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18224E288AA8AB2D7B1D232B /* libicucore.tbd */; };
+		09BA48129B18783EF0741322 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA8449CA9E37C926C585F6A /* CoreFoundation.framework */; };
+		1CD8438F8149A9CBBA8AE809 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31E46C685964F426028C8BF /* AdSupport.framework */; };
+		1ECB41A4B8563E575B8E36F5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A148EBB0EF026D004B3BB6 /* CoreMedia.framework */; };
+		267543C491E16066B008F53B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48224FAE90CE449795DC4C0E /* CoreData.framework */; };
+		36344F3D8BEFBB4579B64200 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873744DE8932A68F219252F8 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4818404681771A6FDA0A483D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF4E8188394F73399D27F7 /* CoreMotion.framework */; };
+		57A8475090BA5AA5A30D647A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324C4828BF234CD1F7A5ECCC /* AddressBook.framework */; };
+		585A60FA1F69388100B08BF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A60F91F69388100B08BF7 /* main.m */; };
+		585A60FD1F69388100B08BF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A60FC1F69388100B08BF7 /* AppDelegate.m */; };
+		585A61001F69388100B08BF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A60FF1F69388100B08BF7 /* ViewController.m */; };
+		585A61031F69388100B08BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585A61011F69388100B08BF7 /* Main.storyboard */; };
+		585A61051F69388100B08BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585A61041F69388100B08BF7 /* Assets.xcassets */; };
+		585A61081F69388100B08BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585A61061F69388100B08BF7 /* LaunchScreen.storyboard */; };
+		585A62C91F693A5300B08BF7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 585A62C81F693A5300B08BF7 /* libxml2.tbd */; };
+		585A62CB1F693A5E00B08BF7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 585A62CA1F693A5E00B08BF7 /* libsqlite3.tbd */; };
+		585A62CD1F693A6700B08BF7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 585A62CC1F693A6700B08BF7 /* libz.tbd */; };
+		586D17161F69FF2000995F6F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586D17151F69FF2000995F6F /* CoreTelephony.framework */; };
+		586D17241F6A078100995F6F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 586D17231F6A078100995F6F /* libresolv.tbd */; };
+		586D17261F6A079700995F6F /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 586D17251F6A079700995F6F /* libz.1.2.5.tbd */; };
+		58D9E5C2213E837B00A732E1 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D9E5C1213E837A00A732E1 /* libresolv.9.tbd */; };
+		58F829102047B3D5002BED14 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F8290F2047B3D4002BED14 /* WatchConnectivity.framework */; };
+		63369DAA21EF2D8700F1DD45 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63369DA921EF2D8700F1DD45 /* libc++.tbd */; };
+		6838414A9782A7D6CB798041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F6443D8C1FCB4794D494BE /* CoreGraphics.framework */; };
+		6B264E6D92AD97600414C29B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32974003B4E100B98AB22BE2 /* AVFoundation.framework */; };
+		6C664B7BA4DCCE77B947E301 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656B4847802AEDD180EAADE6 /* GLKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		81BE4300280C18CA00AD9C4E /* Yodo1KeyConfig.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81BE42FF280C18CA00AD9C4E /* Yodo1KeyConfig.bundle */; };
+		92224AB0B2FE5E4BC7E272A8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9841EAA0425BC812FFE3DE /* ImageIO.framework */; };
+		9E3C4C3E8070805A6AD4F0BD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1645DFA7F8E53D4696BEDF /* Accounts.framework */; };
+		9FC446B0A6B0D00742DEA13B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFF4FACB2849FC931A5B078 /* QuartzCore.framework */; };
+		A0CA47FE85660027207B3433 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232F46E68FB99545FDA9F4F2 /* WebKit.framework */; };
+		AB25481D8A176E2866F6DA9A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D4CE7BDA231F4C633C258 /* AudioToolbox.framework */; };
+		AB4343C2AA1A0A1E7A4C347A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB54FEEB9B9BC015D0DE990 /* Photos.framework */; };
+		B636402ABA0D3E70C9C63AAF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EE4EBF9BC1C28DEB779F86 /* CoreText.framework */; };
+		C2C5432C977786FD5D199FD9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9194710950E53119F96BB06 /* SystemConfiguration.framework */; };
+		C9A6469788DC01F70DEC95A7 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D94AC0938D0C8BE6B64E9F /* EventKitUI.framework */; };
+		CBF940BAA9DCA59535018E21 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB644CF28A60707405767D12 /* MediaPlayer.framework */; };
+		CDB64BC89CA19E9E133A52CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15A4B34881B61FE545DC370 /* CoreLocation.framework */; };
+		CF64449BAAE12A915F866608 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56614CE99652696E746584CA /* AssetsLibrary.framework */; };
+		D3F847F8A8B4F27BDC4868D9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F46E9B9531AE1F763EBC0 /* MobileCoreServices.framework */; };
+		D6244DF9937C4F096727DC10 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A04F24A7A587998C5AD30B /* CFNetwork.framework */; };
+		D62E464A88AD5DCC8D38E84D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A394C47AAD05011B519635D /* Foundation.framework */; };
+		DBB64CA6844C9D735EC7A699 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A24926A90AF5885810E2D7 /* OpenGLES.framework */; };
+		EC18498B81862E0FBF5A398D /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C994B2C901409354D71BBE6 /* GameController.framework */; };
+		ECCFF14625C16A8600157631 /* libPods-Yodo1SuitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6989D31BD91F11E6B50749D2 /* libPods-Yodo1SuitDemo.a */; };
+		ECD5B8092500F340003B0B12 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD5B8082500F340003B0B12 /* libbz2.tbd */; };
+		EF8946239BFB84FACCEC1EAE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69D4DFF9C12981E99DF9AD3 /* Social.framework */; };
+		FDA444B29C62F2F575FB8833 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288749CA93A31EC06C0A518E /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18224E288AA8AB2D7B1D232B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libicucore.tbd; sourceTree = "<absolute>"; };
+		232F46E68FB99545FDA9F4F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		288749CA93A31EC06C0A518E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		324C4828BF234CD1F7A5ECCC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		32974003B4E100B98AB22BE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3AB54FEEB9B9BC015D0DE990 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		3D9841EAA0425BC812FFE3DE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		48224FAE90CE449795DC4C0E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A394C47AAD05011B519635D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C994B2C901409354D71BBE6 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		557D4CE7BDA231F4C633C258 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		56614CE99652696E746584CA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		585A60F51F69388100B08BF7 /* Yodo1SuitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yodo1SuitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585A60F91F69388100B08BF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		585A60FB1F69388100B08BF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		585A60FC1F69388100B08BF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		585A60FE1F69388100B08BF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		585A60FF1F69388100B08BF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		585A61021F69388100B08BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585A61041F69388100B08BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585A61071F69388100B08BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585A61091F69388100B08BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585A62C81F693A5300B08BF7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		585A62CA1F693A5E00B08BF7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		585A62CC1F693A6700B08BF7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		586D17151F69FF2000995F6F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		586D17231F6A078100995F6F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		586D17251F6A079700995F6F /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		58D9E5C1213E837A00A732E1 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		58F8290F2047B3D4002BED14 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		63369DA921EF2D8700F1DD45 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		656B4847802AEDD180EAADE6 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		67F6443D8C1FCB4794D494BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6989D31BD91F11E6B50749D2 /* libPods-Yodo1SuitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yodo1SuitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DA524E71420A3650DEF2893 /* Pods-Yodo1SuitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yodo1SuitDemo.debug.xcconfig"; path = "Target Support Files/Pods-Yodo1SuitDemo/Pods-Yodo1SuitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		819302EA4437AAF96127772E /* Pods-Yodo1SuitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yodo1SuitDemo.release.xcconfig"; path = "Target Support Files/Pods-Yodo1SuitDemo/Pods-Yodo1SuitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81BE42FF280C18CA00AD9C4E /* Yodo1KeyConfig.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Yodo1KeyConfig.bundle; sourceTree = "<group>"; };
+		82EE4EBF9BC1C28DEB779F86 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		873744DE8932A68F219252F8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		88A148EBB0EF026D004B3BB6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A15A4B34881B61FE545DC370 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A9194710950E53119F96BB06 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B0A04F24A7A587998C5AD30B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B31E46C685964F426028C8BF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BB7349AEB0E7E1E50B8431AA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C06F46E9B9531AE1F763EBC0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C1A24926A90AF5885810E2D7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C29242AA9F64EAC73DA9DD0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBA8449CA9E37C926C585F6A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CD1645DFA7F8E53D4696BEDF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D0D94AC0938D0C8BE6B64E9F /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		DAFF4FACB2849FC931A5B078 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB644CF28A60707405767D12 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ECD5B8082500F340003B0B12 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F69D4DFF9C12981E99DF9AD3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FFFF4E8188394F73399D27F7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585A60F21F69388100B08BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5B8092500F340003B0B12 /* libbz2.tbd in Frameworks */,
+				AB4343C2AA1A0A1E7A4C347A /* Photos.framework in Frameworks */,
+				63369DAA21EF2D8700F1DD45 /* libc++.tbd in Frameworks */,
+				58D9E5C2213E837B00A732E1 /* libresolv.9.tbd in Frameworks */,
+				58F829102047B3D5002BED14 /* WatchConnectivity.framework in Frameworks */,
+				586D17261F6A079700995F6F /* libz.1.2.5.tbd in Frameworks */,
+				586D17241F6A078100995F6F /* libresolv.tbd in Frameworks */,
+				586D17161F69FF2000995F6F /* CoreTelephony.framework in Frameworks */,
+				585A62CD1F693A6700B08BF7 /* libz.tbd in Frameworks */,
+				585A62CB1F693A5E00B08BF7 /* libsqlite3.tbd in Frameworks */,
+				585A62C91F693A5300B08BF7 /* libxml2.tbd in Frameworks */,
+				09BA48129B18783EF0741322 /* CoreFoundation.framework in Frameworks */,
+				1CD8438F8149A9CBBA8AE809 /* AdSupport.framework in Frameworks */,
+				02094ABEBCFE662C644E2F36 /* EventKit.framework in Frameworks */,
+				ECCFF14625C16A8600157631 /* libPods-Yodo1SuitDemo.a in Frameworks */,
+				C9A6469788DC01F70DEC95A7 /* EventKitUI.framework in Frameworks */,
+				267543C491E16066B008F53B /* CoreData.framework in Frameworks */,
+				DBB64CA6844C9D735EC7A699 /* OpenGLES.framework in Frameworks */,
+				023644FDB6140D2012549F8D /* UIKit.framework in Frameworks */,
+				C2C5432C977786FD5D199FD9 /* SystemConfiguration.framework in Frameworks */,
+				9FC446B0A6B0D00742DEA13B /* QuartzCore.framework in Frameworks */,
+				D3F847F8A8B4F27BDC4868D9 /* MobileCoreServices.framework in Frameworks */,
+				92224AB0B2FE5E4BC7E272A8 /* ImageIO.framework in Frameworks */,
+				D62E464A88AD5DCC8D38E84D /* Foundation.framework in Frameworks */,
+				6838414A9782A7D6CB798041 /* CoreGraphics.framework in Frameworks */,
+				D6244DF9937C4F096727DC10 /* CFNetwork.framework in Frameworks */,
+				AB25481D8A176E2866F6DA9A /* AudioToolbox.framework in Frameworks */,
+				CF64449BAAE12A915F866608 /* AssetsLibrary.framework in Frameworks */,
+				36344F3D8BEFBB4579B64200 /* StoreKit.framework in Frameworks */,
+				B636402ABA0D3E70C9C63AAF /* CoreText.framework in Frameworks */,
+				FDA444B29C62F2F575FB8833 /* MessageUI.framework in Frameworks */,
+				CDB64BC89CA19E9E133A52CF /* CoreLocation.framework in Frameworks */,
+				57A8475090BA5AA5A30D647A /* AddressBook.framework in Frameworks */,
+				9E3C4C3E8070805A6AD4F0BD /* Accounts.framework in Frameworks */,
+				EF8946239BFB84FACCEC1EAE /* Social.framework in Frameworks */,
+				CBF940BAA9DCA59535018E21 /* MediaPlayer.framework in Frameworks */,
+				6B264E6D92AD97600414C29B /* AVFoundation.framework in Frameworks */,
+				1ECB41A4B8563E575B8E36F5 /* CoreMedia.framework in Frameworks */,
+				4818404681771A6FDA0A483D /* CoreMotion.framework in Frameworks */,
+				A0CA47FE85660027207B3433 /* WebKit.framework in Frameworks */,
+				EC18498B81862E0FBF5A398D /* GameController.framework in Frameworks */,
+				6C664B7BA4DCCE77B947E301 /* GLKit.framework in Frameworks */,
+				04C5428C8E62F364D6D589D9 /* libicucore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA59AC8061B9D8B7B071948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA524E71420A3650DEF2893 /* Pods-Yodo1SuitDemo.debug.xcconfig */,
+				819302EA4437AAF96127772E /* Pods-Yodo1SuitDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		585A60EC1F69388100B08BF7 = {
+			isa = PBXGroup;
+			children = (
+				585A60F71F69388100B08BF7 /* Yodo1SuitDemo */,
+				585A60F61F69388100B08BF7 /* Products */,
+				585A62C71F693A5300B08BF7 /* Frameworks */,
+				2FA59AC8061B9D8B7B071948 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		585A60F61F69388100B08BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585A60F51F69388100B08BF7 /* Yodo1SuitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585A60F71F69388100B08BF7 /* Yodo1SuitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				81BE42FF280C18CA00AD9C4E /* Yodo1KeyConfig.bundle */,
+				585A60FB1F69388100B08BF7 /* AppDelegate.h */,
+				585A60FC1F69388100B08BF7 /* AppDelegate.m */,
+				585A60FE1F69388100B08BF7 /* ViewController.h */,
+				585A60FF1F69388100B08BF7 /* ViewController.m */,
+				585A61011F69388100B08BF7 /* Main.storyboard */,
+				585A61041F69388100B08BF7 /* Assets.xcassets */,
+				585A61061F69388100B08BF7 /* LaunchScreen.storyboard */,
+				585A61091F69388100B08BF7 /* Info.plist */,
+				585A60F81F69388100B08BF7 /* Supporting Files */,
+			);
+			path = Yodo1SuitDemo;
+			sourceTree = "<group>";
+		};
+		585A60F81F69388100B08BF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				585A60F91F69388100B08BF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		585A62C71F693A5300B08BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD5B8082500F340003B0B12 /* libbz2.tbd */,
+				63369DA921EF2D8700F1DD45 /* libc++.tbd */,
+				58D9E5C1213E837A00A732E1 /* libresolv.9.tbd */,
+				58F8290F2047B3D4002BED14 /* WatchConnectivity.framework */,
+				586D17251F6A079700995F6F /* libz.1.2.5.tbd */,
+				586D17231F6A078100995F6F /* libresolv.tbd */,
+				586D17151F69FF2000995F6F /* CoreTelephony.framework */,
+				585A62CC1F693A6700B08BF7 /* libz.tbd */,
+				585A62CA1F693A5E00B08BF7 /* libsqlite3.tbd */,
+				585A62C81F693A5300B08BF7 /* libxml2.tbd */,
+				CBA8449CA9E37C926C585F6A /* CoreFoundation.framework */,
+				B31E46C685964F426028C8BF /* AdSupport.framework */,
+				BB7349AEB0E7E1E50B8431AA /* EventKit.framework */,
+				D0D94AC0938D0C8BE6B64E9F /* EventKitUI.framework */,
+				48224FAE90CE449795DC4C0E /* CoreData.framework */,
+				3AB54FEEB9B9BC015D0DE990 /* Photos.framework */,
+				C1A24926A90AF5885810E2D7 /* OpenGLES.framework */,
+				C29242AA9F64EAC73DA9DD0D /* UIKit.framework */,
+				A9194710950E53119F96BB06 /* SystemConfiguration.framework */,
+				DAFF4FACB2849FC931A5B078 /* QuartzCore.framework */,
+				C06F46E9B9531AE1F763EBC0 /* MobileCoreServices.framework */,
+				3D9841EAA0425BC812FFE3DE /* ImageIO.framework */,
+				4A394C47AAD05011B519635D /* Foundation.framework */,
+				67F6443D8C1FCB4794D494BE /* CoreGraphics.framework */,
+				B0A04F24A7A587998C5AD30B /* CFNetwork.framework */,
+				557D4CE7BDA231F4C633C258 /* AudioToolbox.framework */,
+				56614CE99652696E746584CA /* AssetsLibrary.framework */,
+				873744DE8932A68F219252F8 /* StoreKit.framework */,
+				82EE4EBF9BC1C28DEB779F86 /* CoreText.framework */,
+				288749CA93A31EC06C0A518E /* MessageUI.framework */,
+				A15A4B34881B61FE545DC370 /* CoreLocation.framework */,
+				324C4828BF234CD1F7A5ECCC /* AddressBook.framework */,
+				CD1645DFA7F8E53D4696BEDF /* Accounts.framework */,
+				F69D4DFF9C12981E99DF9AD3 /* Social.framework */,
+				DB644CF28A60707405767D12 /* MediaPlayer.framework */,
+				32974003B4E100B98AB22BE2 /* AVFoundation.framework */,
+				88A148EBB0EF026D004B3BB6 /* CoreMedia.framework */,
+				FFFF4E8188394F73399D27F7 /* CoreMotion.framework */,
+				232F46E68FB99545FDA9F4F2 /* WebKit.framework */,
+				4C994B2C901409354D71BBE6 /* GameController.framework */,
+				656B4847802AEDD180EAADE6 /* GLKit.framework */,
+				18224E288AA8AB2D7B1D232B /* libicucore.tbd */,
+				6989D31BD91F11E6B50749D2 /* libPods-Yodo1SuitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585A60F41F69388100B08BF7 /* Yodo1SuitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585A610C1F69388100B08BF7 /* Build configuration list for PBXNativeTarget "Yodo1SuitDemo" */;
+			buildPhases = (
+				98A63550F63BDF1E85DF03FF /* [CP] Check Pods Manifest.lock */,
+				585A60F11F69388100B08BF7 /* Sources */,
+				585A60F21F69388100B08BF7 /* Frameworks */,
+				585A60F31F69388100B08BF7 /* Resources */,
+				D890ECAB647DBF51DAE245BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yodo1SuitDemo;
+			productName = Yodo1SuitDemo;
+			productReference = 585A60F51F69388100B08BF7 /* Yodo1SuitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585A60ED1F69388100B08BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "yixian huang";
+				TargetAttributes = {
+					585A60F41F69388100B08BF7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SG62393NFU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 585A60F01F69388100B08BF7 /* Build configuration list for PBXProject "Yodo1SuitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 585A60EC1F69388100B08BF7;
+			productRefGroup = 585A60F61F69388100B08BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585A60F41F69388100B08BF7 /* Yodo1SuitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585A60F31F69388100B08BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BE4300280C18CA00AD9C4E /* Yodo1KeyConfig.bundle in Resources */,
+				585A61081F69388100B08BF7 /* LaunchScreen.storyboard in Resources */,
+				585A61051F69388100B08BF7 /* Assets.xcassets in Resources */,
+				585A61031F69388100B08BF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98A63550F63BDF1E85DF03FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yodo1SuitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D890ECAB647DBF51DAE245BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yodo1SuitDemo/Pods-Yodo1SuitDemo-resources.sh",
+				"${PODS_ROOT}/OpenSuitShare/OpenSuitShare.bundle",
+				"${PODS_ROOT}/Weibo_SDK/libWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/Yodo1FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/Yodo1Privacy/PrivacyStrings.bundle",
+				"${PODS_ROOT}/Yodo1QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/Yodo1Suit/Yodo1Suit.bundle",
+				"${PODS_ROOT}/Yodo1UCenter/Yodo1SDKStrings.bundle",
+				"${PODS_ROOT}/Yodo1iRate/iRate.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OpenSuitShare.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PrivacyStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Yodo1Suit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Yodo1SDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iRate.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yodo1SuitDemo/Pods-Yodo1SuitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585A60F11F69388100B08BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A61001F69388100B08BF7 /* ViewController.m in Sources */,
+				585A60FD1F69388100B08BF7 /* AppDelegate.m in Sources */,
+				585A60FA1F69388100B08BF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		585A61011F69388100B08BF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585A61021F69388100B08BF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585A61061F69388100B08BF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585A61071F69388100B08BF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585A610A1F69388100B08BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585A610B1F69388100B08BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585A610D1F69388100B08BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA524E71420A3650DEF2893 /* Pods-Yodo1SuitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG62393NFU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = Yodo1SuitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.hangline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 x86_64";
+			};
+			name = Debug;
+		};
+		585A610E1F69388100B08BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819302EA4437AAF96127772E /* Pods-Yodo1SuitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SG62393NFU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = Yodo1SuitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yodo1.hangline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585A60F01F69388100B08BF7 /* Build configuration list for PBXProject "Yodo1SuitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585A610A1F69388100B08BF7 /* Debug */,
+				585A610B1F69388100B08BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585A610C1F69388100B08BF7 /* Build configuration list for PBXNativeTarget "Yodo1SuitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585A610D1F69388100B08BF7 /* Debug */,
+				585A610E1F69388100B08BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585A60ED1F69388100B08BF7 /* Project object */;
+}

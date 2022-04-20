@@ -1,0 +1,11 @@
+source 'https://github.com/Yodo1Games/Yodo1Spec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target 'Yodo1SuitDemo' do
+  
+  pod 'Yodo1Suit/Yodo1_ConfigKey', '1.5.1.4'
+  pod 'Yodo1Suit/OpenSuit_AnalyticsAppsFlyer', '1.5.1.4'
+  pod 'Yodo1Suit/Yodo1_UCenter', '1.5.1.4'
+
+end
