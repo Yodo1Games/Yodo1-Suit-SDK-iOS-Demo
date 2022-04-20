@@ -21,7 +21,7 @@ pod install --repo-update
 
 ### 3. Change `Bundle Identifier` to your game's `Bundle Identifier`
 
-### 4. Change your AppKey value in `AppDelegate.m` file with the AppId
+### 4. Change `Your AppKey` value in `AppDelegate.m` file with the AppId
 
 ``` obj-c
 SDKConfig *config = [[SDKConfig alloc]init];
