@@ -2,18 +2,18 @@
 
 ## Overview
 
-### Please check out our [documentation](https://github.com/Yodo1Games/Suit-Document/blob/master/README.md) to get started on integrating.
+### Check the [documentation](https://github.com/Yodo1Games/Suit-Document/blob/master/README.md) to get started on integration.
 
 ## Demo App
 To get started with the demo app, follow the instructions below:
 
-### 1. If you already have CocoaPods(1.8.0 and above) installed, please ignore it. Otherwise, to install CocoaPods, use the following command to install CocoaPods.
+### 1. If you already have CocoaPods(1.8.0 and above) installed, please skip this step. Otherwise, to install CocoaPods, use the following command.
 
 ```
 /bin/bash -c "$(curl -fsSL https://gist.githubusercontent.com/nicky9112/0bf903795f77c5052ff12c92e629f975/raw/a8783d03c96b8d1d50f92977bfa0112711fbc57a/install-cocoapods.sh)"
 ```
 
-### 2. Execute the following commands at Terminal.
+### 2. Execute the following commands in the Terminal.
 
 ```ruby
 pod install --repo-update
@@ -21,14 +21,14 @@ pod install --repo-update
 
 ### 3. Change `Bundle Identifier` to your game's `Bundle Identifier`
 
-### 4. Change the Your AppKey value in `AppDelegate.m` file with the AppId
+### 4. Change `Your AppKey` value in `AppDelegate.m` file with the AppId
 
 ``` obj-c
 SDKConfig *config = [[SDKConfig alloc]init];
 config.appKey = @"Your AppKey";
 [Yodo1Manager initSDKWithConfig:config];
 ```
-### 5. Change `Info.plist` to AppsFlyerDevKey, AppleAppId, ThinkingAppId
+### 5. Change AppsFlyerDevKey, AppleAppId, ThinkingAppId values in `Info.plist`
 
 ``` xml
 <key>AnalyticsInfo</key> 
@@ -42,7 +42,7 @@ config.appKey = @"Your AppKey";
 </dict>
 ```
 
-### 6. Change `Yodo1ProductInfo.plist` to purchase point
+### 6. Change `Yodo1ProductInfo.plist` to purchase product
 
 ``` xml
 <key>custom name</key> 
