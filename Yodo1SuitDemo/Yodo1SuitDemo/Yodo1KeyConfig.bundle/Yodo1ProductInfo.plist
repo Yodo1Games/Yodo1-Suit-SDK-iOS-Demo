@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.yodo1.test1</key>
+	<dict>
+		<key>ProductName</key>
+		<string>[Product Name]</string>
+		<key>ChannelProductId</key>
+		<string>[Product Id]</string>
+		<key>ProductDescription</key>
+		<string>[Product Description]</string>
+		<key>PriceDisplay</key>
+		<string>[Price Display] [Can be null]</string>
+		<key>ProductPrice</key>
+		<string>[Product Price]</string>
+		<key>Currency</key>
+		<string>[currency]</string>
+		<key>ProductType</key>
+		<string>[Product Type]</string>
+		<key>PeriodUnit</key>
+		<string>[Period Unit] [Can be null]</string>
+	</dict>
+	<key>com.yodo1.consumption.example</key>
+	<dict>
+		<key>ProductName</key>
+		<string>600 gold COINS</string>
+		<key>ChannelProductId</key>
+		<string>com.yodo1.pay6</string>
+		<key>ProductDescription</key>
+		<string>600 gold COINS</string>
+		<key>PriceDisplay</key>
+		<string></string>
+		<key>ProductPrice</key>
+		<string>6</string>
+		<key>Currency</key>
+		<string>CNY</string>
+		<key>ProductType</key>
+		<string>1</string>
+		<key>PeriodUnit</key>
+		<string></string>
+	</dict>
+	<key>com.yodo1.subscription.example</key>
+	<dict>
+		<key>ProductName</key>
+		<string>The subscription card 1</string>
+		<key>ChannelProductId</key>
+		<string>com.yodo1.subscription.pay12</string>
+		<key>ProductDescription</key>
+		<string>12 RMB subscription card</string>
+		<key>PriceDisplay</key>
+		<string></string>
+		<key>ProductPrice</key>
+		<string>12</string>
+		<key>Currency</key>
+		<string>CNY</string>
+		<key>ProductType</key>
+		<string>2</string>
+		<key>PeriodUnit</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
